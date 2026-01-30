@@ -5,21 +5,21 @@ class Agari < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/ryblogs/agari/releases/download/v0.6.2/agari-aarch64-apple-darwin.tar.xz"
-      sha256 "476590de1970042891a07874173851fd7803638cdf10bebe18dfbd6edd7ea628"
+      sha256 "0d5ff44ecf78aeff46a80bd299ec1511666b82dc6901ebcc0e33ce33f2f41120"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ryblogs/agari/releases/download/v0.6.2/agari-x86_64-apple-darwin.tar.xz"
-      sha256 "fbe98dc5b9c8fe2cdf4e9d6f7171b8536453a0a0f76284b8cd9e9c1b0215243a"
+      sha256 "912b2ff67df384c9095bd38238c640796375c80fc69fcd756bfb6fe6a8b79af6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/ryblogs/agari/releases/download/v0.6.2/agari-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "db8de1288407af625e2b14a4d244a3fbfcaaf2fe70ccb2559dcc973f76692c7a"
+      sha256 "3bd015c7f37914b2dad5cedcf832c5aa2b581dae3095a5aa4fc5714f16ba9935"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ryblogs/agari/releases/download/v0.6.2/agari-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "52accd6a09ba8bf540d82816b997ed0cbcf1a72e056519d03a731530382afa30"
+      sha256 "640949718ef30aa5a6097a0a42b47bea5c859c00a1479285aa90b9caa3fa4b1f"
     end
   end
   license "MIT"
