@@ -1,25 +1,25 @@
 class Agari < Formula
   desc "A Riichi Mahjong hand calculator and scoring engine"
   homepage "https://github.com/ryblogs/agari"
-  version "0.11.0"
+  version "0.12.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ryblogs/agari/releases/download/v0.11.0/agari-aarch64-apple-darwin.tar.xz"
-      sha256 "dfaf6ad91def03bf58a5204c9b04ccf920ff27d12a30bda65d90cbb8ec2830d9"
+      url "https://github.com/ryblogs/agari/releases/download/v0.12.0/agari-aarch64-apple-darwin.tar.xz"
+      sha256 "7024350ecac318c563aaf72e4ed7e5cdc931850fd89931ec4d4154ac1781ccbe"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ryblogs/agari/releases/download/v0.11.0/agari-x86_64-apple-darwin.tar.xz"
-      sha256 "55ea8446cbba96c206e173c07423a3c5e91c5eca374358df309f3223a16d1f9c"
+      url "https://github.com/ryblogs/agari/releases/download/v0.12.0/agari-x86_64-apple-darwin.tar.xz"
+      sha256 "f561975c99894d4e750c6fdf9ec0fa90e53a6cc84d6898bd6f555a913096cc75"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ryblogs/agari/releases/download/v0.11.0/agari-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7dba4d9333f19b524a91d2dcf4a0771ef67d0bb263a3f37de234ce6ce3fa893c"
+      url "https://github.com/ryblogs/agari/releases/download/v0.12.0/agari-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a9f8956f8f000346d5b46b61655e80a0abec99ea05831b429cce903cd7401535"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ryblogs/agari/releases/download/v0.11.0/agari-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a0e78a397864d832d17479bfa152e79c1c13df31fd39cb1e921e3d9ca0f1fc68"
+      url "https://github.com/ryblogs/agari/releases/download/v0.12.0/agari-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "156ae7ac9aa957cc7f0336ffce70ba66971473ffbf35b982128918af17544165"
     end
   end
   license "MIT"
